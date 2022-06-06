@@ -12,3 +12,5 @@ Everyday,thousands of space image data has been collected through years. Even th
 
 <img src="images/sample.jpg">
 
+With the help of a deep learning network GAN (Generative Adversarial Networks) we can denoise the images collected from the space. Also a special type of GAN is being implemented here called Super-Resolution GAN(SRGAN).SRGANs are highly capable of this process to produce a high resolution image .Through this the network when subjected to noised image learns to generate a new image by discriminating the noises in it. Through this we can view an analyse the space images clearly and solve the hidden mysteries of the universe.
+

@@ -14,4 +14,6 @@ With the help of a deep learning network GAN (Generative Adversarial Networks) w
 
 # SRGAN Architecture
 
+<p align="center">
 <img src="images/SRGAN.jpg">
+</p>

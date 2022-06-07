@@ -17,3 +17,10 @@ With the help of a deep learning network GAN (Generative Adversarial Networks) w
 <p align="center">
 <img src="images/SRGAN.jpg">
 </p>
+
+The `requirements.txt` file should list all Python libraries that your notebooks depend on, and they will be installed using
+
+```
+pip install -r requirements.txt
+
+```

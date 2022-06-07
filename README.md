@@ -22,5 +22,4 @@ The `requirements.txt` file should list all Python libraries that your notebooks
 
 ```
 pip install -r requirements.txt
-
 ```

@@ -43,3 +43,13 @@ After training for n number of epochs the results are :
 After about 100 epochs the resultant image is as follows :
 
 <img src="images/epoch106.jpg">
+
+## Contributing to AID
+
+To contribute to <Astronomical-image-denoiser>, follow these steps:
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <Astronomical-image-denoiser>/<location>`
+5. Create the pull request.

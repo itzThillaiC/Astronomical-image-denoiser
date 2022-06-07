@@ -27,3 +27,5 @@ pip install -r requirements.txt
 After training for n number of epochs the results are :
 
 ## Epoch 1 :
+
+<img src="images/epoch1.jpg">

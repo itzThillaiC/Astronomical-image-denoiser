@@ -26,6 +26,20 @@ pip install -r requirements.txt
 
 After training for n number of epochs the results are :
 
-## Epoch 1 :
+## Epoch 1
 
 <img src="images/epoch1.jpg">
+
+## Epoch 50
+
+<img src="images/epoch50.jpg">
+
+## Epoch 80
+
+<img src="images/epoch80.jpg">
+
+## Epoch 100
+
+After about 100 epochs the resultant image is as follows :
+
+<img src="images/epoch106.jpg">

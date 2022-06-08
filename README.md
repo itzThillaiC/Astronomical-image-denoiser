@@ -1,4 +1,4 @@
-<img width="200" height="200" src="images/icon.gif" >
+<img width="800" height="200" src="images/icon.gif" >
 
 # Astronomical-image-denoiser (AID)
 

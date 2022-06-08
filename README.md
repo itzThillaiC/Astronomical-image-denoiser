@@ -1,3 +1,5 @@
+<img src="images/icon.gif">
+
 # Astronomical-image-denoiser (AID)
 
 > Astronomical image denoiser is a GAN model that can be used to denoise the noisy astronomical images obtained from space telescopes.

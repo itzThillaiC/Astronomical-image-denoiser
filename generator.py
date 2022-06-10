@@ -1,14 +1,4 @@
-class Generator(n.Module):
-    def __init__(self):
-        super().__init__()
-        self.conv1 = n.Conv2d(3, 64, 9, padding=4, bias=False)
-        self.conv2 = n.Conv2d(64, 64, 3, padding=1, bias=False)
-        self.conv3_1 = n.Conv2d(64, 256, 3, padding=1, bias=False)
-        self.conv3_2 = n.Conv2d(64, 256, 3, padding=1, bias=False)
-        self.conv4 = n.Conv2d(64, 3, 9, padding=4, bias=False)
-        self.bn = n.BatchNorm2d(64)
-        self.ps = n.PixelShuffle(2)
-        self.prelu = n.PReLU()
+
 
     def forward(self, x):
         block1 = self.prelu(self.conv1(x))

@@ -1,12 +1,7 @@
 import torch
 batch_count = 60
 torch.cuda.empty_cache()
-for epoch in range(epochs):
-    d1loss_list = []
-    d2loss_list = []
-    gloss_list = []
-    vloss_list = []
-    mloss_list = []
+
 
     for batch in tqdm(range(batch_count)):
         hr_imagesList = [

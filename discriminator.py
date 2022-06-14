@@ -1,24 +1,5 @@
 class Discriminator(n.Module):
-    def __init__(self):
-        super().__init__()
-        self.conv1 = n.Conv2d(3, 64, 3, padding=1, bias=False)
-        self.conv2 = n.Conv2d(64, 64, 3, stride=2, padding=1, bias=False)
-        self.bn2 = n.BatchNorm2d(64)
-        self.conv3 = n.Conv2d(64, 128, 3, padding=1, bias=False)
-        self.bn3 = n.BatchNorm2d(128)
-        self.conv4 = n.Conv2d(128, 128, 3, stride=2, padding=1, bias=False)
-        self.bn4 = n.BatchNorm2d(128)
-        self.conv5 = n.Conv2d(128, 256, 3, padding=1, bias=False)
-        self.bn5 = n.BatchNorm2d(256)
-        self.conv6 = n.Conv2d(256, 256, 3, stride=2, padding=1, bias=False)
-        self.bn6 = n.BatchNorm2d(256)
-        self.conv7 = n.Conv2d(256, 512, 3, padding=1, bias=False)
-        self.bn7 = n.BatchNorm2d(512)
-        self.conv8 = n.Conv2d(512, 512, 3, stride=2, padding=1, bias=False)
-        self.bn8 = n.BatchNorm2d(512)
-        self.fc1 = n.Linear(512*16*16, 1024)
-        self.fc2 = n.Linear(1024, 1)
-        self.drop = n.Dropout2d(0.3)
+ 
 
     def forward(self, x):
         block1 = f.leaky_relu(self.conv1(x))
